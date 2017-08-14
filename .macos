@@ -122,9 +122,9 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 # Set a custom wallpaper image. `DefaultDesktop.jpg` is already a symlink, and
 # all wallpapers are in `/Library/Desktop Pictures/`. The default is `Wave.jpg`.
-#rm -rf ~/Library/Application Support/Dock/desktoppicture.db
-#sudo rm -rf /System/Library/CoreServices/DefaultDesktop.jpg
-#sudo ln -s /path/to/your/image /System/Library/CoreServices/DefaultDesktop.jpg
+# rm -rf ~/Library/Application Support/Dock/desktoppicture.db
+# sudo rm -rf /System/Library/CoreServices/DefaultDesktop.jpg
+# sudo ln -s /path/to/your/image /System/Library/CoreServices/DefaultDesktop.jpg
 
 ###############################################################################
 # SSD-specific tweaks                                                         #
@@ -241,7 +241,7 @@ defaults write com.apple.finder ShowMountedServersOnDesktop -bool false
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool false
 
 # Finder: show hidden files by default
-#defaults write com.apple.finder AppleShowAllFiles -bool true
+defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # Finder: show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
