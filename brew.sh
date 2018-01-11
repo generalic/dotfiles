@@ -90,8 +90,8 @@ brew install rename
 brew install ssh-copy-id
 brew install tree
 brew install vbindiff
-# brew install zopfli
 brew install tldr
+brew install htop
 
 # Remove outdated versions from the cellar.
 brew cleanup
